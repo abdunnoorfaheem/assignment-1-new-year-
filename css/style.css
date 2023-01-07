@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
     
-    
+
+
 }
 
 /* header start  */
@@ -40,13 +41,13 @@
 
 .header-btn {
     background: #F15B22;
-    
+
     border: 0;
     padding: 20px 25px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     font-weight: 600;
     font-size: 20px;
-    
+
     border-radius: 5px;
 
 
@@ -63,15 +64,32 @@
 .content {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     /* justify-content: center; */
 
 
 }
-.person-img{
-    width: 550px;
+ /* .left-content img{
+    /* margin-right: 70px;
+    padding-right: 50px */
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; }*/
+
+ 
+
+.person-img {
+    width: 750px;
     height: 650px;
-    margin-left: 100px;
+    margin-left: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: 100px;
+    padding-top: 200px;
+    padding-left: 400px;
+    width: 50%;
+    
 
 }
 
@@ -80,7 +98,7 @@
     
  /* margin-right: 100px;  */
 
- 
+
 
 .right-content {
 
@@ -123,6 +141,19 @@ ul {
     font-size: 40px;
 }
 
+.plans-types {
+    font-weight: 700;
+    font-size: 30px;
+    
+
+}
+
+.plan-type {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
 .my-plans {
     text-align: center;
     font-weight: 700;
@@ -152,8 +183,10 @@ ul {
 
 .left-plans-one {
     margin: 5px 60px;
+    
 
 }
+
 
 .left-plans-two {
     margin: 5px 60px;
@@ -176,19 +209,16 @@ ul {
 
 
 
-    /* max-width: 1140px;
-    max-height: 300px;
-    background-image: url('../images/watch.png'); */
-    background-image: url('../images/watch.png');
+
+    background-image: url('../images/watch.png') ,url('../images/gradient2.png');
+    /* background:  */
+    background-blend-mode:lighten;
     background-repeat: no-repeat;
     background-position: center;
-    /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%); */
+
     border-radius: 8px;
     margin-bottom: 130px;
-    /* background-blend-mode: hard-light ; */
-    /* background-size: 100% 100%; */
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
+
     text-align: left;
 
 }
@@ -206,7 +236,7 @@ ul {
 }
 
 .last-content-section-btn {
-    border:0;
+    border: 0;
     padding: 20px 25px;
     background-color: #FFFFFF;
     font-weight: 600;
@@ -214,7 +244,7 @@ ul {
     color: rgb(218, 96, 51);
     border-radius: 5px;
     margin-bottom: 60px;
-    margin-left:420px ;
+    margin-left: 420px;
     padding-left: 30px;
 
 }
@@ -277,6 +307,7 @@ ul {
 }
 
 .footer-right-title {
+    display: flex;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 600;
@@ -341,6 +372,17 @@ input[type="email"] {
 
 .you-tube {
     padding: 5px 5px 15px 0;
+}
+
+.copyright {
+    
+    color: black;
+    background-color: #F8F8F8;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    /* margin: 20px; */
 }
 
 /* footer end */
