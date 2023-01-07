@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    
+
 
 
 }
@@ -69,15 +69,16 @@
 
 
 }
- /* .left-content img{
+
+/* .left-content img{
     /* margin-right: 70px;
     padding-right: 50px */
-    /* display: block;
+/* display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%; }*/
 
- 
+
 
 .person-img {
     width: 750px;
@@ -89,7 +90,7 @@
     padding-top: 200px;
     padding-left: 400px;
     width: 50%;
-    
+
 
 }
 
@@ -144,7 +145,7 @@ ul {
 .plans-types {
     font-weight: 700;
     font-size: 30px;
-    
+
 
 }
 
@@ -183,7 +184,7 @@ ul {
 
 .left-plans-one {
     margin: 5px 60px;
-    
+
 
 }
 
@@ -210,11 +211,13 @@ ul {
 
 
 
-    background-image: url('../images/watch.png') ,url('../images/gradient2.png');
+    /* background-image: url('../images/watch.png') ,url('../images/gradient2.png'); */
     /* background:  */
-    background-blend-mode:lighten;
+    /* background-blend-mode:lighten; */
+    background-image: linear-gradient(to left, rgba(255,255, 255, 255), rgba(0, 255, 255, 0)), url('../images/watch.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-blend-mode:color-burn;
 
     border-radius: 8px;
     margin-bottom: 130px;
@@ -375,7 +378,7 @@ input[type="email"] {
 }
 
 .copyright {
-    
+
     color: black;
     background-color: #F8F8F8;
     text-align: center;
